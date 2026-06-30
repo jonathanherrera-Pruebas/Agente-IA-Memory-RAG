@@ -297,3 +297,5 @@ Jonathan David Herrera García
 # Licencia
 
 Proyecto desarrollado con fines académicos.
+
+## Actualización de prueba del pipeline CI/CD
