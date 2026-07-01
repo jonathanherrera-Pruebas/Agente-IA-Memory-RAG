@@ -34,17 +34,12 @@ jobs:
         run: |
           python -m pytest tests/
 
-      - name: Validar Dataset
+      - name: Validar Versionado DVC
         run: |
-          test -f dataset/dataset.csv
-
-      - name: Validar Modelo
-        run: |
-          test -f modelo/modelo.pkl
-
-      - name: Validación IA
-        run: |
-          echo "Dataset y modelo encontrados correctamente."
+          test -f dataset/dataset.csv.dvc
+          test -f modelo/modelo.pkl.dvc
+          dvc version
+          echo "Dataset y modelo versionados correctamente con DVC."
 
       - name: Build
         run: |
