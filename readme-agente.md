@@ -298,4 +298,4 @@ Jonathan David Herrera García
 
 Proyecto desarrollado con fines académicos.
 
-## Actualización de pruebadvc del pipeline CI/CDD
+## Actualización de pruebadv del pipeline CI/CDD
